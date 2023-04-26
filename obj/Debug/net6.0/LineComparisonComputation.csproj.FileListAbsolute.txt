@@ -1,0 +1,15 @@
+D:\BridgeLabz Second batch\LineComparisonComputaion\bin\Debug\net6.0\LineComparisonComputation.exe
+D:\BridgeLabz Second batch\LineComparisonComputaion\bin\Debug\net6.0\LineComparisonComputation.deps.json
+D:\BridgeLabz Second batch\LineComparisonComputaion\bin\Debug\net6.0\LineComparisonComputation.runtimeconfig.json
+D:\BridgeLabz Second batch\LineComparisonComputaion\bin\Debug\net6.0\LineComparisonComputation.dll
+D:\BridgeLabz Second batch\LineComparisonComputaion\bin\Debug\net6.0\LineComparisonComputation.pdb
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.csproj.AssemblyReference.cache
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.AssemblyInfoInputs.cache
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.AssemblyInfo.cs
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.csproj.CoreCompileInputs.cache
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.dll
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\refint\LineComparisonComputation.dll
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.pdb
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\LineComparisonComputation.genruntimeconfig.cache
+D:\BridgeLabz Second batch\LineComparisonComputaion\obj\Debug\net6.0\ref\LineComparisonComputation.dll
