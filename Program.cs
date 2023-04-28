@@ -19,10 +19,11 @@ namespace LineComparisonComputation
 
             LineComparison lineComparison = new LineComparison(x1,x2,y1,y2);
             double line1 = lineComparison.Calculate();
+            
             LineComparison lineComparison1 = new LineComparison(1, 2, 3, 4);
             double line2 = lineComparison1.Calculate();
 
-            lineComparison.CheckEquility(line1, line2);
+            lineComparison.CompareLines(line1, line2);
         }
     }
 }
