@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LineComparisonComputation
+{
+    public class LineComparison
+    {
+        int x1, y1, x2, y2;
+        public LineComparison(int x1, int x2, int y1, int y2)
+        {
+            this.x1 = x1;
+            this.x2 = x2;
+            this.y1 = y1;
+            this.y2 = y2;
+        }
+
+        //Calculate Length of Lines
+        public static void Calculate()
+        {
+            int x1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Value of x1:- " + x1);
+            int x2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Value of x2:- " + x2);
+            int y1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Value of y1:- " + y1);
+            int y2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Value of y2:- " + y2);
+
+            double result = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
+            Console.WriteLine("Square result: " + result);
+        }
+    }
+}
