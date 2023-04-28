@@ -25,18 +25,7 @@ namespace LineComparisonComputation
             Console.WriteLine("Square result: " + result);
             return result;
         }
-
-        //Check equality of two lines
-        public void CheckEquility(double line1, double line2)
-        {
-            if(line1 == line2)
-            {
-                Console.WriteLine("Both Lines are equal");
-            }else
-            {
-                Console.WriteLine("Lines are not equal");
-            }
-        }
+        
 
         //Compare the two lines
         public void CompareLines(double line1, double line2)
