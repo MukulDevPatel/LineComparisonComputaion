@@ -18,19 +18,24 @@ namespace LineComparisonComputation
         }
 
         //Calculate Length of Lines
-        public static void Calculate()
+        public double Calculate()
         {
-            int x1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Value of x1:- " + x1);
-            int x2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Value of x2:- " + x2);
-            int y1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Value of y1:- " + y1);
-            int y2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Value of y2:- " + y2);
 
             double result = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
             Console.WriteLine("Square result: " + result);
+            return result;
+        }
+
+        //Check equality of two lines
+        public void CheckEquility(double line1, double line2)
+        {
+            if(line1 == line2)
+            {
+                Console.WriteLine("Both Lines are equal");
+            }else
+            {
+                Console.WriteLine("Lines are not equal");
+            }
         }
     }
 }
