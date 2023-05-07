@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace LineComparisonComputation
 {
+    //Encapsulation
     public class Point
     {
         public int x1 { get; }
@@ -22,11 +23,14 @@ namespace LineComparisonComputation
             this.y2 = y2;
         }
     }
+    
+    //Inheritance
     public class Line : Point
     {
         public static double CalculateLength()
         {
 
+            //Calculate the both line lengths with two points
             Console.Write("Value of x1:- ");
             int x1 = Convert.ToInt32(Console.ReadLine());
 
@@ -53,6 +57,7 @@ namespace LineComparisonComputation
             return otherLine.Equals(this);
         }
 
+        //Compare two lines
         public static void CompareTo()
         {
             
